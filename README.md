@@ -7,3 +7,8 @@ run npm i in both folders
 npm run dev in prueba folder
 ;
 npm start in frontdeetdevs
+
+
+;
+
+folders in branch master
