@@ -1,0 +1,13 @@
+<h1>hi <%= email %>  </h1>
+<h2> <%= post %></h2>
+
+<form action="/logout?_method=DELETE" method="POST">
+    <button type="submit">logout</button>
+</form>
+<form action="/post" method="POST">
+    <div>
+        <label for="content">Write whatever you want...</label>
+        <input type="text" id="content" name="content">
+    </div>
+    <button type="submit">post</button>
+</form>
